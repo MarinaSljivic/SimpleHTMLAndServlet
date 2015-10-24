@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Course form</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="nicestyle.css">
+
+</head>
+<body>
+
+
+<div class="row">
+	  <div class="col-sm-6"><img src="smajlici.jpg" /></div>
+	  <div class="col-sm-6">
+	  	<div class="naslovi">
+			<h1>SMIJEH</h1>
+			<h2>Najmoćnija vještina na svijetu</h2>
+		</div> 
+	  </div>
+</div>
+<div class="paragrafi">
+	
+	<p class="uvod">Kaže se da je dan u kojem se nismo nasmijali promašen dan. I to je blago rečeno, 
+	jer stvarna istina je da su osmijesi i smijeh najbolje sredstvo za liječenje, oporavak, 
+	prevenciju, postignuća, privlačenje suprotnog spola i prijatelja, za prosperitet, uljepšavanje...
+	za uspjeh u bilo čemu.
+	<br/>
+	Slavni Ralph Waldo Emerson je rekao: "Ako želite vladati svijetom, morate ga zabavljati". 
+	A najlakše je zabaviti druge nasmijavanjem. 
+	Mi na to dodajemo: ako želite izliječiti svijet, morate  ga zabavljati. 
+	Za to postoji umjetnost, u bilo kojem obliku - slikarstvo, filmovi, glazba, 
+	književnost, stripovi... Za umjetnost se zna da inspirira, uljepšava, liječi i 
+	donosi osmijehe i zabavu u naše živote. To je razlog zašto savjetujemo da koristite 
+	umjetnost u svojim naporima da budete nasmijaniji, a time i uspješniji i sretniji.
+	</p>
+	
+	<div class="row">
+	  <div class="col-sm-6">
+	  	<p><br/><br/><br/><br/>
+		U prosjeku, malo se dijete nasmije gotovo dvjesto puta dnevno, a odrasle osobe samo dvanaest, 
+		kažu stručnjaci.
+		</p>
+		<p><em>Jesi li ispod prosjeka?</em></p> 
+	  </div>
+	  <div class="col-sm-6"><img src="sweet.jpg" class="img-rounded" alt="sweet smile" width="304" height="236" /></div>
+	</div>
+	 
+	<p class="glavnidio">Ako jesi, poduzmi nešto jer o tome ovisi tvoj život, tvoj uspjeh i sreća. 
+	Zašto se mališani mogu toliko smijati? Možda se smiju nama, ali najvjerojatnije se smiju zato 
+	što još nisu opterećeni ni ograničeni razumom. Očito, smijeh nije plod razuma nego srca.
+	Nikako nije prirodno kemikalijama (lijekovima) rješavati probleme. Najprirodnije je ismijati vlastite 
+	nevolje. Čudno, ali to pomaže da nestanu. "Ako se mogu tome smijati, mogu to i prebroditi", rekao je 
+	Bill Cosby. Ako možemo baciti svjetlo na neku mračnu situaciju, pronaći duhovitu stranu u naizgled 
+	neduhovitom, tada nam ta situacija više nije prijetnja. Humor nam daje drugu perspektivu na naše probleme,
+	koja je otvorenija ka pronalaženju rješenja.<br/>
+	Ako si kao većina ljudi, treba ti razlog za osmijeh i za smijanje. Nitko te ne krivi. Pa tako, 
+	ako si poput većine ljudi, taj razlog treba imati nekakve veze s humorom ili zabavom, zar ne?
+	Ovdje smo da ti otkrijemo mnoge druge razloge za smijeh, od kojih neki donose novac u tvoj džep, 
+	ljubav u tvoj život, otklanjaju svaku bol i uljepšavaju tvoje lice...
+	</p>
+	
+	<p class="reklama">
+	Upiši se odmah na naš kurs smijeha :)
+	</p>	
+</div>
+
+<form method="post" action="yourform.com" class="form-horizontal">
+ 
+  <div class="form-group">
+    <label class="control-label col-sm-2">Ime:</label>
+    <div class="col-sm-10"> 
+      <input type="text" class="form-control" name="name" placeholder="Unesi ime" >
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="control-label col-sm-2">Prezime:</label>
+    <div class="col-sm-10"> 
+      <input type="text" class="form-control" name="surname" placeholder="Unesi prezime" >
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="control-label col-sm-2">Datum rođenja:</label>
+    <div class="col-sm-10"> 
+      <input type="date" class="form-control" name="date" >
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="control-label col-sm-2">Broj telefona:</label>
+    <div class="col-sm-10"> 
+    	<input type="tel" class="form-control" name="phonenumber" placeholder="Unesi broj telefona"
+    	pattern="[\+]\d{5}[\/]\d{3}[\-]\d{3}" 
+    	title="Broj telefona (Format: +38769/999-999)">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="control-label col-sm-2">E-mail adresa:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" name="email" placeholder="Unesi e-mail">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="control-label col-sm-2">Adresa stanovanja:</label>
+    <div class="col-sm-10"> 
+      <input type="text" class="form-control" name="address" placeholder="Unesi adresu stanovanja">
+    </div>
+  </div>
+  
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <input type="submit" value="Pošalji podatke" />
+    </div>
+  </div>
+  
+</form>
+</body>
+</html>

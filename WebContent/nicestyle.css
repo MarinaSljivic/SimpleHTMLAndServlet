@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+h1{
+font-size: xx-large;
+font-weight: bolder;
+padding-top: 70px;
+}
+h2{
+font-size: medium;
+}
+.naslovi{
+text-align: right;
+font: em;
+font-family: sans-serif;
+}
+.paragrafi{
+padding-top: 40px;
+padding-bottom: 30px;
+}
+.col-sm-6{
+text-align: right;
+}
+.glavnidio{
+padding-top: 30px;
+}
+.reklama{
+padding-top: 30px;
+font-weight: bold;	
+}
+body{
+background-color:#FFEBCD;
+margin-left:10%;
+margin-right:10%;
+
+padding-bottom: 30px;
+}
+
+.form-horizontal{
+font-family:sans-serif;
+border:1px dotted gray;
+padding:10px 10px 10px 10px;
+}
