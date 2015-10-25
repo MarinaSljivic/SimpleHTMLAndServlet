@@ -31,10 +31,10 @@ public class SimpleServlet extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		
-		out.println("<html><head><title>Your form</title>" + "<link rel=\"stylesheet\" "
+		out.println("<html><head><title>Your form</title><link rel=\"stylesheet\" "
 				+ "href=\"http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css\">"
-				+ "<link rel=\"stylesheet\" href=\"nicestyle.css\">" + "</head><body>");
-		out.println("<div class=\"row\"><div class=\"col-sm-6\"><img src=\"smajlici.jpg\" class=\"img-thumbnail\" /></div>"
+				+ "<link rel=\"stylesheet\" href=\"nicestyle.css\"></head><body>");
+		out.println("<div class=\"row\"><div class=\"col-sm-6\"><img src=\"smajlici.jpg\" class=\"img-rounded\" /></div>"
 				+ "<div class=\"col-sm-6\"><div class=\"naslovi\"><h1>SMIJEH</h1>"
 				+ "<h2>Najmocnija vjestina na svijetu</h2></div></div></div>");
 		
@@ -57,7 +57,7 @@ public class SimpleServlet extends HttpServlet {
 					+ "</tr>" + "</thead>" + "<tbody>" + "<tr>" + "<td>" + name + "</td>" + "<td>" + surname + "</td>"
 					+ "<td>" + dateOfBirth + "</td>" + "<td>" + phoneNumber + "</td>" + "<td>" + email + "</td>" + "<td>"
 					+ address + "</td>" + "</tr>" + "</tbody></table></div>");
-			out.println("<img src=\"takesmile.png\" class=\"img-thumbnail\" alt=\"take a smile\""
+			out.println("<img src=\"takesmile.png\" class=\"img-rounded\" alt=\"take a smile\""
 					+ "align=\"left\" width=\"300\" height=\"100\" />"
 					+ "<br/><br/>");
 			out.println("</body></html>");
