@@ -1,41 +1,67 @@
 @CHARSET "UTF-8";
 
-h1{
-font-size: xx-large;
-font-weight: bolder;
-padding-top: 70px;
-}
-h2{
-font-size: medium;
-}
-.naslovi{
-text-align: right;
-font: em;
-font-family: sans-serif;
-}
-.paragrafi{
-padding-bottom: 30px;
-}
-.col-sm-6{
-text-align: right;
-}
-p{
-padding-top: 30px;
-}
-.bold-p{
-padding-top: 30px;
-font-weight: bold;	
-}
-body{
-background-color:#FFEBCD;
-font: cursive;
-margin-left:10%;
-margin-right:10%;
-padding-bottom: 30px;
+h1 {
+	font-size: xxx-large;
+	font-weight: bolder;
+	padding-top: 50px;
+	color: purple;
 }
 
-.form-horizontal{
-font-family:sans-serif;
-border:1px dotted gray;
-padding:10px 10px 10px 10px;
+h2 {
+	font-size: large;
+	color: purple;
+}
+
+.naslovi {
+	text-align: right;
+	font: em;
+	font-family: sans-serif;
+	padding-bottom: 40px;
+}
+
+.body1 {	
+	
+	background-color: #f3ebf2;
+	border-color: white;
+	border-style: dotted;
+	border-width: 1px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border: white solid 2px;
+}
+
+.col-sm-6 {
+	padding-top: 30px;
+	text-align: right;
+}
+
+p {
+	padding: 30px 30px 30px;
+}
+
+.bold-p {
+	font-weight: bold;
+	font-size: medium;
+}
+
+body {
+	background-image: url("print2.jpg");
+	background-repeat: repeat;
+	font: cursive;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 30px;
+}
+
+.form-horizontal {
+	font-family: sans-serif;
+	padding: 10px 30px 10px 30px;
+}
+
+.container {
+	padding: 10px 100px 10px 30px;
 }
